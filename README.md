@@ -2,6 +2,7 @@
 Create, Read, Update, Delete project for Listings table.
 
 # directory structure
+```
 root
 |
 |
@@ -39,7 +40,9 @@ root
 ----> test (pytest is used: all test files should be in this directory)
        |
        -----> test_main.py: tests for main.py 
+```
 # usage
+```
 FastAPI is used for detailed description please refer to the FastApi documents
 In order to run use one of the following methods:
 1. uvicorn main:router
@@ -47,8 +50,9 @@ In order to run use one of the following methods:
 
 In order to test:
 pytest
-
+```
 # assumptions
+```
 If environment variables are not provided or all variables provided and MOCK_DB=='true' then mock_db environment variable is set to true.
   In this case:
     1. sqlite is used as mock_db 
@@ -63,3 +67,4 @@ In that case the following environment parameters should be populated:
     DB_USER: db user
     DB_PASSWORD: password
     DB_PORT: port
+```
