@@ -46,7 +46,7 @@ root
 FastAPI is used for detailed description please refer to the FastApi documents
 In order to run use one of the following methods:
 1. uvicorn main:router
-2. ptyhon -m main
+2. python -m main
 
 In order to test:
 pytest
